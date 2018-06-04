@@ -15,16 +15,8 @@
                 <h2 class="post-card-title">{title}</h2>
             </header>
             <section class="post-card-excerpt">
-                <p>{@excerpt paragraphs="1" tags="em,strong"/}</p>
+                <p>{metaDescription}</p>
             </section>
         </a>
-        {^noAuthor}
-            <footer class="post-card-meta">
-                {?author.avatar}
-                    <img class="author-profile-image" src="{@url path=author.avatar/}" alt="{author.name}" />
-                {/author.avatar}
-                <a href="{@url type="author" username=author.username/}" class="post-card-author">{author.name}</a>
-            </footer>
-        {/noAuthor}
     </div>
 </article>
