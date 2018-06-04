@@ -17,6 +17,9 @@
             <section class="post-card-excerpt">
                 <p>{metaDescription}</p>
             </section>
+            <footer class="post-card-meta">
+                <time class="post-full-meta-date" datetime="{@date date=publishedAt format="YYYY-MM-DD"/}">{@date date=publishedAt format="D MMMM YYYY"/}</time>
+            </footer>
         </a>
     </div>
 </article>
