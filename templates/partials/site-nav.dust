@@ -16,6 +16,6 @@
     </div>
     <div class="site-nav-right">
         <a class="search-button" href="{@url type="search"/}">{>"partials/icons/search.dust"/}</a>
-        <a class="rss-button" href="{@url type="rss"/}" target="_blank">{>"partials/icons/rss.dust"/}</a>
+        <a class="rss-button" href="{@url type="feed"/}" target="_blank">{>"partials/icons/rss.dust"/}</a>
     </div>
 </nav>
